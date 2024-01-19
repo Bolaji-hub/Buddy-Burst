@@ -48,7 +48,7 @@ const Header = () => {
         {nav ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
       {nav && (
-        <ul className="flex md:hidden flex-col justify-center items-center absolute top-0 left-0 h-screen w-full text-slate-600">
+        <ul className="flex md:hidden flex-col justify-center items-center absolute top-0 left-0 h-screen w-full text-slate-600 bg-white">
           {links.map(({ id, title, to }) => (
             <li key={id} className="cursor-pointer py-6 font-medium text-xl">
               <a href={to}>{title}</a>

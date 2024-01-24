@@ -15,7 +15,7 @@ const Hero = () => {
           <span className="text-rose-500">BuddyBurst</span> to expand your
           social circle and create lasting connections with like-minded people.
         </p>
-        <button className=" text-slate-700 font-bold bg-rose-800 px-6 py-2 rounded-md hover:scale-105 duration-300 cursor-pointer ml-4 text-xl ">
+        <button className=" text-white font-bold bg-black px-6 py-2 rounded-md hover:scale-105 duration-300 cursor-pointer ml-4 text-xl ">
           Get Started
         </button>
       </div>

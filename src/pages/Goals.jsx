@@ -1,3 +1,5 @@
+import Header from "../components/Header";
+
 const Goals = () => {
   return (
     <div className=" justify-center items-center mr-6">

@@ -31,11 +31,11 @@ const Header = () => {
       <h1 className=" text-3xl text-rose-800 font-bold  cursor-pointer flex justify-between items-center h-20 ml-6 hover:scale-105 duration-300">
         BuddyBurst
       </h1>
-      <ul className=" hidden md:flex ml-auto">
+      <ul className=" hidden md:flex ml-auto cursor-pointer">
         {links.map(({ id, title, to }) => (
           <li
             key={id}
-            className=" px-4 cursor-pointer py-6 font-medium text-slate-600"
+            className=" px-4 cursor-pointer py-6 font-medium text-slate-600 hover:scale-105 duration-300"
           >
             <a href={to}>{title}</a>
           </li>

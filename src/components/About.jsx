@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-1 ml-6 gap-4 mt-10 mr-4 py-4">
+    <div className="grid md:grid-cols-3 sm:grid-cols-1 ml-6 gap-4 mt-[100px] mr-4 py-4 ">
       <div className=" py-4 px-4">
         <h2 className="text-2xl font-bold text-black-500 mb-4">
           Connect instantly
